@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Configuración de log para TESTS. Sólo define salida a Consola-->
+
+<Configuration>
+    <Appenders>
+       <Console name="consoleAppender">
+           <PatternLayout pattern="[%d{dd/MM/yyyy HH:mm:ss}] [%5p] [%c{1}:%L] - %m%n"/>
+       </Console>
+    </Appenders>
+    <Loggers>
+       <Logger name="cl" level="trace" additivity="false">
+            <AppenderRef ref="consoleAppender"/>
+       </Logger>
+    </Loggers>
+</Configuration>
