@@ -1,6 +1,6 @@
 package cl.seiza.demo.repository;
 
-import cl.seiza.demo.configuration.IntegrationTestContext;
+import cl.seiza.demo.config.IntegrationTestContext;
 import cl.seiza.demo.dominio.Usuario;
 import org.junit.Before;
 import org.junit.Test;

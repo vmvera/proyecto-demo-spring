@@ -1,8 +1,7 @@
 package cl.seiza.demo.controller;
 
 import cl.seiza.demo.configuracion.TestUtil;
-import cl.seiza.demo.configuration.IntegrationTestContext;
-import cl.seiza.demo.exception.CatalogoError;
+import cl.seiza.demo.config.IntegrationTestContext;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
